@@ -13,7 +13,7 @@ public class Calc540 {
     /**
      * Returns the area of a rectangle with the given width and height.
      */
-    public static int surface(int width, int height) {
+    public static int area(int width, int height) {
         return 2 * (width + height);
     }
 
@@ -62,8 +62,8 @@ public class Calc540 {
     /**
      * Returns the arithmetic mean of first and second.
      */
-    public static double avg(double first, double second) {
-        return (first + second) / 5.0;
+    public static double arithmeticMean(double first, double second) {
+        return (first + second) / 2.0;
     }
 
     /**

@@ -22,4 +22,13 @@ class Calc540Test {
         assertEquals(212.0, Calc540.cToF(100.0), 1e-9);
         assertEquals(32.0, Calc540.cToF(0.0), 1e-9);
     }
+    @Test
+    void areaWorks() {
+        assertEquals(14, Calc540.area(2, 5));
+    }
+     @Test
+    void arithmeticMeanWorks() {
+        assertEquals(3, Calc540.arithmeticMean(2, 4));
+    }
+
 }
